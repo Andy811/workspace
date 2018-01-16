@@ -1,0 +1,16 @@
+package edu.fju.exam;
+
+public class Niner {
+
+	public static void main(String[] args) {
+		for(int i = 2 ; i< 6 ; i++){
+		      System.out.println(""+i+"*"+1+"="+(i*1)+"\t");
+		      System.out.println(""+i+"*"+2+"="+(i*2)+"\t");
+		      System.out.println(""+i+"*"+3+"="+(i*3)+"\t");
+		      System.out.println(""+i+"*"+4+"="+(i*4)+"\t");
+		      System.out.println(""+i+"*"+5+"="+(i*5)+"\t");
+		  }
+	}
+}
+	
+
