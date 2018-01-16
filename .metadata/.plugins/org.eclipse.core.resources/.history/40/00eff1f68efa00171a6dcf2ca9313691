@@ -1,0 +1,36 @@
+package edu.fju.exam;
+
+public class Niner {
+
+	public static void main(String[] args) {
+		String[] exams = {"SCJP", "SCWCD", "SCMAD"};
+        int i ,j;
+        for(i=0;i<exams.length;i++) {
+            System.out.print(exams[i] + ", ");
+        }
+        
+        System.out.println();
+        //for-each
+        for(String str : exams)
+            System.out.print(str + ", ");
+            
+        //九九乘法表
+        System.out.println();
+        int[][] arr = new int[9][9];
+        for(i=0 ; i<9 ; i++){
+            for(j=0 ; j<9 ; j++)
+                arr[j][i] = (i+1)*(j+1);
+        }
+        //for-each
+        for(int[] ex : arr ){
+            for(int exx : ex)
+                System.out.print(exx + "    ");
+            System.out.println();
+        }
+    }
+    
+    
+
+
+	
+}

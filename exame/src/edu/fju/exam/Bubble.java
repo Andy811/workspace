@@ -1,0 +1,26 @@
+package edu.fju.exam;
+
+import java.util.Arrays;
+
+public class Bubble {
+
+	public static void main(String[] args) {
+		 int[ ] array = {1,100,5}; 
+	     
+	      for(int member : array){ 
+	              System.out.print(member + " "); 
+	      } 
+  Arrays.sort(array); 
+	      
+	      for(int member : array){ 
+	              System.out.print(member + " "); 
+	      }
+	
+	}
+
+		
+		
+
+	}
+
+
